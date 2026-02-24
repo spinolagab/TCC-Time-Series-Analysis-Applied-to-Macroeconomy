@@ -29,6 +29,7 @@ Para usarmos o jupyter notebook com o VS-Code, precisamos do ipykernel instalado
 Por questões de segurança da nossa chave de API usaremos python-dotenv para evitar chamar ela abertamente no código, colocando no gitignore
 
 ```bash
+pip install Jupyter
 pip install ipykernel
 pip install python-dotenv
 pip install requests
